@@ -16,7 +16,7 @@ app.get('/add', (req, res) => {
   }
   catch(e){
       console.log("8080  : ",e)
-      result = "invalid Input"
+      result = "Invalid Input"
   }
     
   res.json({"result":result,status:200})
