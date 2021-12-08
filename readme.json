@@ -1,4 +1,4 @@
-{"Description":"The calculator asset performs basic calculation steps",
+{"Description":"The calculator asset performs basic calculation steps<br/> Endpoint : http://169.51.206.174:30440<br/>Documentation : Takes two variables, param1 and param2, based on the values it will return the addition<br/>api : add<br/>samplecode<br/>axios.get('http://169.51.206.174:30440/add?param1=5&param2=5').then(resp => {console.log(resp.data);})",
     "apiDetails":{"endpoint":"http://169.51.206.174:30440","endpoint1":"add","Method":"GET","Details":"Takes two variables, param1 and param2, based on the value it will return the addition"},"sampleCode":"axios.get('http://169.51.206.174:30440/add?param1=5&param2=5').then(resp => {console.log(resp.data);})","sampleResponse":"{\"result\": 10,\"status\": 200}"}
     
     
